@@ -19,14 +19,14 @@
 </head>
 <body>
 
-    <div class="container">
-        <a href="mailto:posta@emretekin.com.tr" data-tooltip="posta@emretekin.com.tr" >E-mail</a>
-        <a href="mailto:posta@emretekin.com.tr" data-tooltip="posta@emretekin.com.tr" data-tooltip-bottom >E-mail</a>
-        <a href="mailto:posta@emretekin.com.tr" data-tooltip="posta@emretekin.com.tr" data-tooltip-top >E-mail</a>
-        <a href="mailto:posta@emretekin.com.tr" data-tooltip="posta@emretekin.com.tr" data-tooltip-left >E-mail</a>
-        <a href="mailto:posta@emretekin.com.tr" data-tooltip="posta@emretekin.com.tr" data-tooltip-right >E-mail</a>
-    </div>
-
+    <h1>Pure Tooltip Css</h1>
+    <p>Attribut ve birazcık css kullanarak tooltip kullanımı</p>
+    <br>
+    <a href="mailto:posta@emretekin.com.tr" data-tooltip="posta@emretekin.com.tr" >E-mail</a>
+    <a href="mailto:posta@emretekin.com.tr" data-tooltip="posta@emretekin.com.tr" data-tooltip-bottom >E-mail</a>
+    <a href="mailto:posta@emretekin.com.tr" data-tooltip="posta@emretekin.com.tr" data-tooltip-top >E-mail</a>
+    <a href="mailto:posta@emretekin.com.tr" data-tooltip="posta@emretekin.com.tr" data-tooltip-left >E-mail</a>
+    <a href="mailto:posta@emretekin.com.tr" data-tooltip="posta@emretekin.com.tr" data-tooltip-right >E-mail</a>
 
     <style>
         /* --------------------------------- */
@@ -38,7 +38,7 @@
             text-align: center;
             color: #555;
             font-family: 'Roboto', sans-serif;
-            padding:50px 30px;
+            padding:30px;
         }
 
         h1, h2, h3, h4 {
@@ -76,6 +76,7 @@
             display: none;
             content: attr(data-tooltip);
             position: absolute;
+            z-index: 99;
             padding: 5px 10px;
             background: #333;
             color: #fff;
