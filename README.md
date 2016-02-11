@@ -1,5 +1,5 @@
-# tooltip.css Documantation
-[alert.js Demo](http://emretekin.com.tr/tooltip.css/)
+# Pure Tooltip Css Documantation
+[tooltip.css Demo](http://emretekin.com.tr/tooltip.css/)
 
 ## tooltip.css Use
 example : `<span data-tooltip="Content">Tooltip</span>`
